@@ -1,9 +1,460 @@
 {
-  "updatedAt": null,
+  "updatedAt": "2026-09-14T08:12:53.932Z",
   "playlist": {
-    "name": null,
-    "url": null,
-    "image": null
+    "name": "in rotation",
+    "url": "https://open.spotify.com/playlist/5NAUBQhGeYKl5v8korGf6T",
+    "image": "https://mosaic.scdn.co/640/ab67616d00001e0253596a050e8369c51da11029ab67616d00001e0271cecf4c653a4bad539da13dab67616d00001e027ca62b0bc46a6d38a6096b67ab67616d00001e0295dda76df9154e6b70bd9f3c"
   },
-  "tracks": []
+  "tracks": [
+    {
+      "id": "5U7lO7SFgd1L3rW9aQNRkM",
+      "name": "no sé creer",
+      "artists": "RØZ",
+      "album": "SE ESTÁ HACIENDO TARDE",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737ca62b0bc46a6d38a6096b67",
+      "url": "https://open.spotify.com/track/5U7lO7SFgd1L3rW9aQNRkM",
+      "durationMs": 195200,
+      "previewUrl": null
+    },
+    {
+      "id": "2dd3G3ZqEcG2cNS1tp3oEk",
+      "name": "capaz (merengueton)",
+      "artists": "Alleh, Yorghaki",
+      "album": "LA CIUDAD",
+      "image": "https://i.scdn.co/image/ab67616d0000b27353596a050e8369c51da11029",
+      "url": "https://open.spotify.com/track/2dd3G3ZqEcG2cNS1tp3oEk",
+      "durationMs": 173858,
+      "previewUrl": null
+    },
+    {
+      "id": "4wh3ixrNMsTOBCqowBeBEI",
+      "name": "I'm Not Alone - Radio Edit",
+      "artists": "Calvin Harris",
+      "album": "I'm Not Alone",
+      "image": "https://i.scdn.co/image/ab67616d0000b2736303e49068390e217e2734fd",
+      "url": "https://open.spotify.com/track/4wh3ixrNMsTOBCqowBeBEI",
+      "durationMs": 211853,
+      "previewUrl": null
+    },
+    {
+      "id": "79QdtrBWO8lCVaZCYMIxvn",
+      "name": "Burrow (with Don Toliver, Steve Aoki & Dot Da Genius) - Bonus Track",
+      "artists": "Kid Cudi, Don Toliver, Steve Aoki, Dot Da Genius",
+      "album": "Entergalactic",
+      "image": "https://i.scdn.co/image/ab67616d0000b27371cecf4c653a4bad539da13d",
+      "url": "https://open.spotify.com/track/79QdtrBWO8lCVaZCYMIxvn",
+      "durationMs": 211280,
+      "previewUrl": null
+    },
+    {
+      "id": "4Ilw2lD6z4WBqh65vUUZUf",
+      "name": "my way",
+      "artists": "Olivia Rodrigo",
+      "album": "you seem pretty sad for a girl so in love",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735cf234eeb7a2edf44bf64a46",
+      "url": "https://open.spotify.com/track/4Ilw2lD6z4WBqh65vUUZUf",
+      "durationMs": 180720,
+      "previewUrl": null
+    },
+    {
+      "id": "6gLXuUHVKVhVO40ZfmysPa",
+      "name": "Night , Blooming Jasmine .",
+      "artists": "fakemink",
+      "album": "Terrified .",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734987b5a78ae7e264e17aa35e",
+      "url": "https://open.spotify.com/track/6gLXuUHVKVhVO40ZfmysPa",
+      "durationMs": 178868,
+      "previewUrl": null
+    },
+    {
+      "id": "6KaAnwNe5do79gkAsu0iEU",
+      "name": "2016",
+      "artists": "BLONDE SUPPERMACY",
+      "album": "SWAG MUSIC",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739ce9fa1b214c46a06fd38dce",
+      "url": "https://open.spotify.com/track/6KaAnwNe5do79gkAsu0iEU",
+      "durationMs": 109853,
+      "previewUrl": null
+    },
+    {
+      "id": "0rvbMTIWwMZaMC9UnubDPb",
+      "name": "DOMINGO DE BOTE",
+      "artists": "Mora",
+      "album": "PARAÍSO",
+      "image": "https://i.scdn.co/image/ab67616d0000b2732a5c6164e8743597f44b645e",
+      "url": "https://open.spotify.com/track/0rvbMTIWwMZaMC9UnubDPb",
+      "durationMs": 190745,
+      "previewUrl": null
+    },
+    {
+      "id": "4gh0ZnHzaTMT1sDga7Ek0N",
+      "name": "sdp interlude",
+      "artists": "Travis Scott",
+      "album": "Birds In The Trap Sing McKnight",
+      "image": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
+      "url": "https://open.spotify.com/track/4gh0ZnHzaTMT1sDga7Ek0N",
+      "durationMs": 191622,
+      "previewUrl": null
+    },
+    {
+      "id": "4ZzxVQZcZWcLjfiOA3hRH8",
+      "name": "CORA DE HIELO",
+      "artists": "RØZ, Natt Calma, Mau Moctezuma",
+      "album": "CORA DE HIELO",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734fa5ec1eeaf7275bf7d51bef",
+      "url": "https://open.spotify.com/track/4ZzxVQZcZWcLjfiOA3hRH8",
+      "durationMs": 164769,
+      "previewUrl": null
+    },
+    {
+      "id": "6Dz0rasJ6CDxEQYG6qv3M1",
+      "name": "Die For",
+      "artists": "Arro, Sapjer",
+      "album": "Die For",
+      "image": "https://i.scdn.co/image/ab67616d0000b2730b51437f8fae50c49d1c80d2",
+      "url": "https://open.spotify.com/track/6Dz0rasJ6CDxEQYG6qv3M1",
+      "durationMs": 188592,
+      "previewUrl": null
+    },
+    {
+      "id": "1TMWjPjpQGU9t4PfLQ0qJS",
+      "name": "sentado aquí,",
+      "artists": "LATIN MAFIA",
+      "album": "TODOS LOS DÍAS TODO EL DÍA",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735e92f2d649b34dbf56cf2264",
+      "url": "https://open.spotify.com/track/1TMWjPjpQGU9t4PfLQ0qJS",
+      "durationMs": 162893,
+      "previewUrl": null
+    },
+    {
+      "id": "2OZVskV28xxJjjhQqKTLSg",
+      "name": "PIXELATED KISSES",
+      "artists": "Joji",
+      "album": "PIXELATED KISSES",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734a66ee1a8cdd72378eb56765",
+      "url": "https://open.spotify.com/track/2OZVskV28xxJjjhQqKTLSg",
+      "durationMs": 110430,
+      "previewUrl": null
+    },
+    {
+      "id": "4ikQtfAnZn5SP3w2FjxQ4k",
+      "name": "No veo bien",
+      "artists": "RØZ, Nsqk",
+      "album": "mañana, temprano",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739818f7150458c1e6f8245096",
+      "url": "https://open.spotify.com/track/4ikQtfAnZn5SP3w2FjxQ4k",
+      "durationMs": 211225,
+      "previewUrl": null
+    },
+    {
+      "id": "2qoxzXXSWPodTTsX4FkWEk",
+      "name": "Private",
+      "artists": "The Neighbourhood",
+      "album": "(((((ultraSOUND)))))",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ba9dd3d335c249d54e04ca1d",
+      "url": "https://open.spotify.com/track/2qoxzXXSWPodTTsX4FkWEk",
+      "durationMs": 229386,
+      "previewUrl": null
+    },
+    {
+      "id": "5pzUVpoeLEiTtLcVJ3KR4r",
+      "name": "kombate",
+      "artists": "Nsqk",
+      "album": "piel / kombate",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c16cf067fbe18da7434c2538",
+      "url": "https://open.spotify.com/track/5pzUVpoeLEiTtLcVJ3KR4r",
+      "durationMs": 230400,
+      "previewUrl": null
+    },
+    {
+      "id": "6WjabPGyxfP76hS344UtMe",
+      "name": "Replica",
+      "artists": "AFROJACK",
+      "album": "Replica",
+      "image": "https://i.scdn.co/image/ab67616d0000b2733578408a8824785ebac7bfee",
+      "url": "https://open.spotify.com/track/6WjabPGyxfP76hS344UtMe",
+      "durationMs": 450288,
+      "previewUrl": null
+    },
+    {
+      "id": "1vczvREfjA7ZVXpdpthnoE",
+      "name": "Airglow",
+      "artists": "DJ_Dave",
+      "album": "Airglow",
+      "image": "https://i.scdn.co/image/ab67616d0000b27331d9c93414023fe0c3a17790",
+      "url": "https://open.spotify.com/track/1vczvREfjA7ZVXpdpthnoE",
+      "durationMs": 290571,
+      "previewUrl": null
+    },
+    {
+      "id": "55PYPY471Xhau1wEpqjslP",
+      "name": "Sur (Interludio)",
+      "artists": "Nsqk",
+      "album": "ROY",
+      "image": "https://i.scdn.co/image/ab67616d0000b273628b6b407154a6817f515794",
+      "url": "https://open.spotify.com/track/55PYPY471Xhau1wEpqjslP",
+      "durationMs": 107824,
+      "previewUrl": null
+    },
+    {
+      "id": "4N1MFKjziFHH4IS3RYYUrU",
+      "name": "My Love",
+      "artists": "Route 94, Jess Glynne",
+      "album": "My Love",
+      "image": "https://i.scdn.co/image/ab67616d0000b273229b511799188e23773629f0",
+      "url": "https://open.spotify.com/track/4N1MFKjziFHH4IS3RYYUrU",
+      "durationMs": 259933,
+      "previewUrl": null
+    },
+    {
+      "id": "0bkTdkWwGk3OGFX0afD3Wj",
+      "name": "Mystery Lady",
+      "artists": "Masego, Don Toliver",
+      "album": "Studying Abroad: Extended Stay",
+      "image": "https://i.scdn.co/image/ab67616d0000b273472da7a855e1446b36bcb83b",
+      "url": "https://open.spotify.com/track/0bkTdkWwGk3OGFX0afD3Wj",
+      "durationMs": 228453,
+      "previewUrl": null
+    },
+    {
+      "id": "0yZjFgJYHJwnMMBhzEBP7J",
+      "name": "Wait So Long (Why Do I Have To) - RE\\MIND Remix",
+      "artists": "Swedish House Mafia, RE\\MIND",
+      "album": "Wait So Long (Why Do I Have To) [RE\\MIND Remix]",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735c13e832ed3dea6002973fb0",
+      "url": "https://open.spotify.com/track/0yZjFgJYHJwnMMBhzEBP7J",
+      "durationMs": 289959,
+      "previewUrl": null
+    },
+    {
+      "id": "0FAlG6uOeaXWuRdDxaeIQY",
+      "name": "I'll Take It",
+      "artists": "Sophia Stel",
+      "album": "Object Permanence (Deluxe Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273901f8af08d8c70953be3044b",
+      "url": "https://open.spotify.com/track/0FAlG6uOeaXWuRdDxaeIQY",
+      "durationMs": 203093,
+      "previewUrl": null
+    },
+    {
+      "id": "5p3ckKoVpUi51ByUmA1vfT",
+      "name": "Bleed (feat. Omar Apollo)",
+      "artists": "Malcolm Todd, Omar Apollo",
+      "album": "Bleed (feat. Omar Apollo)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735a7fdb4f4ac42c792fac9fa3",
+      "url": "https://open.spotify.com/track/5p3ckKoVpUi51ByUmA1vfT",
+      "durationMs": 179373,
+      "previewUrl": null
+    },
+    {
+      "id": "4t9PBD27dndlf6YMBK2ROc",
+      "name": "Track 10",
+      "artists": "Charli xcx",
+      "album": "Pop 2",
+      "image": "https://i.scdn.co/image/ab67616d0000b273da30209ea35caf1d46931818",
+      "url": "https://open.spotify.com/track/4t9PBD27dndlf6YMBK2ROc",
+      "durationMs": 326906,
+      "previewUrl": null
+    },
+    {
+      "id": "1UTLq40xh63wMrHELGnKWW",
+      "name": "2:12 AM",
+      "artists": "Rauw Alejandro, LATIN MAFIA",
+      "album": "Cosa Nuestra",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a6224f2f93c0ab4b2e01b44b",
+      "url": "https://open.spotify.com/track/1UTLq40xh63wMrHELGnKWW",
+      "durationMs": 211918,
+      "previewUrl": null
+    },
+    {
+      "id": "2FAZskT9yRjp2Oow9szJD8",
+      "name": "The Days - NOTION Remix",
+      "artists": "Chrystal, NOTION",
+      "album": "The Days (NOTION Remix)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2739041b9965925059507fb44af",
+      "url": "https://open.spotify.com/track/2FAZskT9yRjp2Oow9szJD8",
+      "durationMs": 233229,
+      "previewUrl": null
+    },
+    {
+      "id": "5C25UbDGoB9pgvqFlGfS9A",
+      "name": "Bloom For Me",
+      "artists": "Pearly Drops",
+      "album": "Call For Help",
+      "image": "https://i.scdn.co/image/ab67616d0000b2737c797ae4eaf5062537ca84fc",
+      "url": "https://open.spotify.com/track/5C25UbDGoB9pgvqFlGfS9A",
+      "durationMs": 147441,
+      "previewUrl": null
+    },
+    {
+      "id": "0b4M7hd7mzLTm99MrMeZsp",
+      "name": "She Will",
+      "artists": "Lil Wayne, Drake",
+      "album": "Tha Carter IV (Complete Edition)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953",
+      "url": "https://open.spotify.com/track/0b4M7hd7mzLTm99MrMeZsp",
+      "durationMs": 305840,
+      "previewUrl": null
+    },
+    {
+      "id": "1bWACDppxjESmjkXMl6cnI",
+      "name": "Ipséité - Bonus Track",
+      "artists": "Damso",
+      "album": "Lithopédion",
+      "image": "https://i.scdn.co/image/ab67616d0000b27327b75c8f94720797618b890a",
+      "url": "https://open.spotify.com/track/1bWACDppxjESmjkXMl6cnI",
+      "durationMs": 208357,
+      "previewUrl": null
+    },
+    {
+      "id": "0fukO3WYYUHaXOrvEohpEG",
+      "name": "Σ. MOROSE",
+      "artists": "Damso",
+      "album": "QALF infinity",
+      "image": "https://i.scdn.co/image/ab67616d0000b273699da7fe16923709d6adaf1d",
+      "url": "https://open.spotify.com/track/0fukO3WYYUHaXOrvEohpEG",
+      "durationMs": 263576,
+      "previewUrl": null
+    },
+    {
+      "id": "1GljONHNvhA1lVr9jmTVkd",
+      "name": "Thrill",
+      "artists": "French The Kid",
+      "album": "Never Been Ordinary",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f1f27432b08047ba40871aaf",
+      "url": "https://open.spotify.com/track/1GljONHNvhA1lVr9jmTVkd",
+      "durationMs": 163404,
+      "previewUrl": null
+    },
+    {
+      "id": "03MWa1FMygR3RrQoQytsjS",
+      "name": "Cudi Zone",
+      "artists": "Kid Cudi",
+      "album": "Man On The Moon: The End Of Day (Deluxe)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a487deeecb334b6619489d74",
+      "url": "https://open.spotify.com/track/03MWa1FMygR3RrQoQytsjS",
+      "durationMs": 259040,
+      "previewUrl": null
+    },
+    {
+      "id": "2aPTvyE09vUCRwVvj0I8WK",
+      "name": "Sundress",
+      "artists": "A$AP Rocky",
+      "album": "Sundress",
+      "image": "https://i.scdn.co/image/ab67616d0000b2731ae967e4a02c7a39eb3c189b",
+      "url": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK",
+      "durationMs": 158205,
+      "previewUrl": null
+    },
+    {
+      "id": "5uaHSOou5ernQBKhfVse1f",
+      "name": "Everytime",
+      "artists": "IDEMI, Lustral",
+      "album": "Everytime",
+      "image": "https://i.scdn.co/image/ab67616d0000b273f64f41769ac466af461fc5a7",
+      "url": "https://open.spotify.com/track/5uaHSOou5ernQBKhfVse1f",
+      "durationMs": 205454,
+      "previewUrl": null
+    },
+    {
+      "id": "6njivaRY1zUaaEZGf22unI",
+      "name": "TENTEN",
+      "artists": "NOTION, Unknown T, D38",
+      "album": "TENTEN",
+      "image": "https://i.scdn.co/image/ab67616d0000b2735a393c735f40ce2cdaab8f57",
+      "url": "https://open.spotify.com/track/6njivaRY1zUaaEZGf22unI",
+      "durationMs": 209347,
+      "previewUrl": null
+    },
+    {
+      "id": "2c7z5oRcPBbqRaBY2mLWcf",
+      "name": "NEW DROP",
+      "artists": "Don Toliver",
+      "album": "HARDSTONE PSYCHO",
+      "image": "https://i.scdn.co/image/ab67616d0000b273b5050e0d58c704da6bb519e1",
+      "url": "https://open.spotify.com/track/2c7z5oRcPBbqRaBY2mLWcf",
+      "durationMs": 217333,
+      "previewUrl": null
+    },
+    {
+      "id": "47FmTHqPWGWEfbgDpLjvCt",
+      "name": "Dern Kala",
+      "artists": "Khruangbin",
+      "album": "The Universe Smiles Upon You",
+      "image": "https://i.scdn.co/image/ab67616d0000b273bc009dcb7578608697771b74",
+      "url": "https://open.spotify.com/track/47FmTHqPWGWEfbgDpLjvCt",
+      "durationMs": 219840,
+      "previewUrl": null
+    },
+    {
+      "id": "4GhaiN8g3mwCcbfDLGoYqy",
+      "name": "Ansiedades",
+      "artists": "Mora",
+      "album": "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734a3cdc1e547b3d275d97cff8",
+      "url": "https://open.spotify.com/track/4GhaiN8g3mwCcbfDLGoYqy",
+      "durationMs": 174066,
+      "previewUrl": null
+    },
+    {
+      "id": "5T10GMsxlnyizGo6RL5fvI",
+      "name": "Reflection",
+      "artists": "Riordan",
+      "album": "Reflection",
+      "image": "https://i.scdn.co/image/ab67616d0000b27329c405f2d8ca9623c0f3ebcb",
+      "url": "https://open.spotify.com/track/5T10GMsxlnyizGo6RL5fvI",
+      "durationMs": 187200,
+      "previewUrl": null
+    },
+    {
+      "id": "24PUqZJcXUjByIybGftoHZ",
+      "name": "LUCES AZULES",
+      "artists": "Quevedo",
+      "album": "DONDE QUIERO ESTAR",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c154d5d5b34fdab473b59055",
+      "url": "https://open.spotify.com/track/24PUqZJcXUjByIybGftoHZ",
+      "durationMs": 160975,
+      "previewUrl": null
+    },
+    {
+      "id": "6MCYfUWQixdULHVaDm4Hgo",
+      "name": "think abt it",
+      "artists": "oaf1, Caspr",
+      "album": "think abt it",
+      "image": "https://i.scdn.co/image/ab67616d0000b273cd4a595ef20e19689e5f1122",
+      "url": "https://open.spotify.com/track/6MCYfUWQixdULHVaDm4Hgo",
+      "durationMs": 144332,
+      "previewUrl": null
+    },
+    {
+      "id": "3hyyG3Rm7DdmDwG2ZHfxFR",
+      "name": "III. Telegraph Ave. (\"Oakland\" by Lloyd)",
+      "artists": "Childish Gambino",
+      "album": "Because the Internet",
+      "image": "https://i.scdn.co/image/ab67616d0000b27326d64b6150aa3d9b6b67d857",
+      "url": "https://open.spotify.com/track/3hyyG3Rm7DdmDwG2ZHfxFR",
+      "durationMs": 210673,
+      "previewUrl": null
+    },
+    {
+      "id": "3pD0f7hSJg2XdQ6udw5Tey",
+      "name": "What Goes Around.../...Comes Around (Interlude)",
+      "artists": "Justin Timberlake",
+      "album": "FutureSex/LoveSounds",
+      "image": "https://i.scdn.co/image/ab67616d0000b273c6ba98fd3f3b396a6c6f7091",
+      "url": "https://open.spotify.com/track/3pD0f7hSJg2XdQ6udw5Tey",
+      "durationMs": 448573,
+      "previewUrl": null
+    },
+    {
+      "id": "2qGvgsRsmrB0Y7Y4MmuP1M",
+      "name": "We Do What We Want - Edit",
+      "artists": "Alan Fitzpatrick",
+      "album": "We Do What We Want (Edit)",
+      "image": "https://i.scdn.co/image/ab67616d0000b273eb7bbfd72d873abf08a0a980",
+      "url": "https://open.spotify.com/track/2qGvgsRsmrB0Y7Y4MmuP1M",
+      "durationMs": 188095,
+      "previewUrl": null
+    }
+  ]
 }
