@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>In Rotation — Bella Koosh</title>
+<meta name="description" content="What Bella Koosh is playing lately — synced from a real Spotify playlist.">
+<meta property="og:title" content="In Rotation — Bella Koosh">
+<meta property="og:description" content="What Bella Koosh is playing lately — synced from a real Spotify playlist.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23FDFCF8'/><circle cx='16' cy='16' r='14.5' fill='%23000'/><circle cx='16' cy='16' r='11' fill='none' stroke='%23303030' stroke-width='1'/><circle cx='16' cy='16' r='8.5' fill='none' stroke='%23303030' stroke-width='1'/><circle cx='16' cy='16' r='5' fill='%230055FF'/><circle cx='16' cy='16' r='1.3' fill='%23FDFCF8'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="needle" aria-hidden="true"></div>
+<header class="masthead">
+  <div class="shell masthead__in">
+    <a class="wordmark" href="index.html">Bella Koosh</a>
+    <button class="navtoggle" aria-expanded="false" aria-controls="primary-nav"><span data-label>Menu</span></button>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <a href="work.html">Work</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="about.html">About</a>
+      <a class="nav__resume" href="assets/resume/bella-koosh-resume.pdf">Resume ↗</a>
+      <a href="in-rotation.html" aria-current="page">In Rotation</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- This page's data comes from assets/data/rotation.json, written by a
+       scheduled GitHub Action (see .github/workflows/sync-rotation.yml and
+       scripts/sync-rotation.mjs). Nothing on this page is hand-typed track
+       data, and nothing autoplays — clicking a row is what loads a deck
+       and, where a preview exists, starts audio. -->
+
+  <section class="ir" aria-label="In Rotation">
+    <div class="ir-parallax" aria-hidden="true"><span id="ir-parallax-text">ROTATION</span></div>
+
+    <div class="ir-in">
+
+      <div class="ir-head rise">
+        <div class="ir-marg">
+          <span class="ir-mono ir-mono--glow-blue">[PHASE: ACTIVE]</span>
+          <span class="ir-mono">01</span>
+        </div>
+        <div>
+          <h1 class="ir-title">In Rotation</h1>
+          <p class="ir-sub">What I&rsquo;m playing lately.</p>
+        </div>
+        <div class="ir-marg ir-marg--r">
+          <span class="ir-mono ir-mono--glow-orange">VOL. 004</span>
+          <span class="ir-mono">BPM: SYNC</span>
+        </div>
+      </div>
+
+      <div class="ir-decks rise">
+        <div class="ir-deck" data-deck="A" style="--deck-accent: var(--ir-blue)">
+          <div class="ir-deck__frame"></div>
+          <div class="ir-deck__chan"><span>CH 1</span><span>L IN</span></div>
+          <div class="ir-platter">
+            <div class="ir-platter__ring">
+              <img class="ir-platter__img" data-deck-art alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23151515'/%3E%3C/svg%3E">
+            </div>
+          </div>
+          <div class="ir-track-info">
+            <h2 data-deck-title>Deck A</h2>
+            <p data-deck-meta>No track loaded yet</p>
+          </div>
+        </div>
+
+        <div class="ir-mixer" aria-hidden="true">
+          <div class="ir-eq ir-eq--hi"><span>EQ HI</span><div class="ir-eq__track"><div class="ir-eq__dot"></div></div></div>
+          <div class="ir-eq ir-eq--mid"><span>EQ MID</span><div class="ir-eq__track"><div class="ir-eq__dot"></div></div></div>
+          <div class="ir-eq ir-eq--low"><span>EQ LOW</span><div class="ir-eq__track"><div class="ir-eq__dot"></div></div></div>
+          <div class="ir-xfade">
+            <span class="ir-xfade__label">X-FADE</span>
+            <div class="ir-xfade__track">
+              <div class="ir-xfade__grad"></div>
+              <div class="ir-xfade__thumb"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ir-deck ir-deck--b" data-deck="B" style="--deck-accent: var(--ir-orange)">
+          <div class="ir-deck__frame"></div>
+          <div class="ir-deck__chan"><span>CH 2</span><span>R IN</span></div>
+          <div class="ir-platter">
+            <div class="ir-platter__ring">
+              <img class="ir-platter__img" data-deck-art alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23151515'/%3E%3C/svg%3E">
+            </div>
+          </div>
+          <div class="ir-track-info">
+            <h2 data-deck-title>Deck B</h2>
+            <p data-deck-meta>No track loaded yet</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ir-endrule rise"><span>[END OF SET]</span></div>
+
+      <div class="ir-list rise" data-rotation-list>
+        <div class="ir-list__head">
+          <h2>Tracklist</h2>
+          <p class="ir-sync" data-sync-status>Loading&hellip;</p>
+        </div>
+        <div class="ir-filters" data-filters hidden></div>
+        <div class="ir-tracks" data-tracks></div>
+        <div class="ir-empty" data-empty hidden>
+          <p>Not yet synced.</p>
+          <p>This list is wired to a real Spotify playlist via a scheduled sync &mdash;
+          see <code>README.md</code> for how it goes live.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="shell">
+    <div class="nextup" data-accent="blue">
+      <p class="mono">Back to it</p>
+      <p class="nextup__title">The work</p>
+      <a class="btn" href="work.html">Open <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </section>
+
+</main>
+<footer class="colophon">
+  <div class="shell colophon__in">
+    <p class="colophon__ask">Want to talk product, education, or music?</p>
+    <nav class="colophon__links mono" aria-label="Footer">
+      <a href="#" id="email-link">Email &#8599;</a>
+
+<script>
+  const user = "isabellakoosh";
+  const domain = "berkeley.edu";
+  document.getElementById("email-link").href = `mailto:${user}@${domain}`;
+</script>
+      <a href="#" class="todo">LinkedIn &#8599;</a>
+      <a href="assets/resume/bella-koosh-resume.pdf">Resume &#8599;</a>
+      <span class="colophon__loc">Berkeley, CA</span>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/rotation.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>About — Bella Koosh</title>
+  <meta
+    name="description"
+    content="About Bella Koosh, a UC Berkeley computer science student working across product, education, and technology."
+  >
+
+  <meta property="og:title" content="About — Bella Koosh">
+  <meta
+    property="og:description"
+    content="About Bella Koosh, a UC Berkeley computer science student working across product, education, and technology."
+  >
+  <meta property="og:type" content="website">
+
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%23FDFCF8'/><circle cx='16' cy='16' r='14.5' fill='%23000'/><circle cx='16' cy='16' r='11' fill='none' stroke='%23303030' stroke-width='1'/><circle cx='16' cy='16' r='8.5' fill='none' stroke='%23303030' stroke-width='1'/><circle cx='16' cy='16' r='5' fill='%230055FF'/><circle cx='16' cy='16' r='1.3' fill='%23FDFCF8'/></svg>"
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="assets/css/site.css">
+
+  <style>
+    /* =========================================================
+       ABOUT PAGE
+       ========================================================= */
+
+    .about-page {
+      padding-top: clamp(2rem, 4vw, 4rem);
+      padding-bottom: clamp(4rem, 7vw, 7rem);
+    }
+
+    .about-page__kicker {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: clamp(2rem, 4vw, 3.5rem);
+    }
+
+    .about-page__layout {
+      display: grid;
+      grid-template-columns: 230px minmax(0, 1fr) 330px;
+      gap: clamp(2.5rem, 4vw, 5rem);
+      align-items: start;
+    }
+
+
+    /* -------------------------
+       Portrait
+       ------------------------- */
+
+    .about-page__portrait {
+      width: 230px;
+      max-width: 100%;
+    }
+
+    .about-page__portrait img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      object-position: center;
+      border: 1px solid currentColor;
+    }
+
+
+    /* -------------------------
+       Main copy
+       ------------------------- */
+
+    .about-page__story {
+      min-width: 0;
+    }
+
+    .about-page__story h1 {
+      margin: -0.1em 0 1.35rem;
+      font-size: clamp(4rem, 6vw, 7rem);
+      line-height: 0.9;
+    }
+
+    .about-page__copy {
+      max-width: 38rem;
+      font-family: "Source Serif 4", serif;
+      font-size: clamp(1.15rem, 1.4vw, 1.45rem);
+      line-height: 1.55;
+    }
+
+    .about-page__copy p {
+      margin: 0 0 1.45rem;
+    }
+
+    .about-page__copy p:last-child {
+      margin-bottom: 0;
+    }
+
+    .about-page__resume {
+      margin-top: 2rem;
+    }
+
+
+    /* -------------------------
+       Sidebar
+       ------------------------- */
+
+    .about-sidebar {
+      min-width: 0;
+    }
+
+    .about-sidebar__block {
+      border-top: 1px solid currentColor;
+    }
+
+    .about-sidebar__block + .about-sidebar__block {
+      margin-top: 2.5rem;
+    }
+
+    .about-sidebar__heading {
+      margin: 0;
+      padding: 0.8rem 0;
+      border-bottom: 1px solid currentColor;
+    }
+
+    .about-facts {
+      margin: 0;
+    }
+
+    .about-facts__row {
+      display: grid;
+      grid-template-columns: 90px minmax(0, 1fr);
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+    }
+
+    .about-facts__row dt {
+      margin: 0;
+      font-family: "Space Mono", monospace;
+      font-size: 0.68rem;
+      line-height: 1.5;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      opacity: 0.55;
+    }
+
+    .about-facts__row dd {
+      margin: 0;
+      font-family: "Source Serif 4", serif;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+
+    /* =========================================================
+       LEADERSHIP
+       ========================================================= */
+
+    .about-leadership {
+      margin-top: 0;
+    }
+
+    .about-leadership .sechead {
+      margin-bottom: 2rem;
+    }
+
+    .about-leadership__closing {
+      max-width: 43rem;
+      margin-top: 2.5rem;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+       ========================================================= */
+
+    @media (max-width: 1100px) {
+
+      .about-page__layout {
+        grid-template-columns: 200px minmax(0, 1fr);
+      }
+
+      .about-page__portrait {
+        width: 200px;
+      }
+
+      .about-sidebar {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        margin-top: 1rem;
+      }
+
+      .about-sidebar__block + .about-sidebar__block {
+        margin-top: 0;
+      }
+
+    }
+
+
+    @media (max-width: 720px) {
+
+      .about-page {
+        padding-top: 1.5rem;
+      }
+
+      .about-page__layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .about-page__portrait {
+        width: min(70vw, 280px);
+      }
+
+      .about-page__story h1 {
+        font-size: clamp(3.5rem, 16vw, 5.5rem);
+      }
+
+      .about-sidebar {
+        grid-column: auto;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 1rem;
+      }
+
+      .about-facts__row {
+        grid-template-columns: 85px minmax(0, 1fr);
+      }
+
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <div class="needle" aria-hidden="true"></div>
+
+
+  <!-- =========================================================
+       NAV
+       ========================================================= -->
+
+  <header class="masthead">
+
+    <div class="shell masthead__in">
+
+      <a class="wordmark" href="index.html">
+        Bella Koosh
+      </a>
+
+      <button
+        class="navtoggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span data-label>Menu</span>
+      </button>
+
+      <nav
+        class="nav"
+        id="primary-nav"
+        aria-label="Primary"
+      >
+        <a href="work.html">Work</a>
+
+        <a href="teaching.html">
+          Teaching
+        </a>
+
+        <a
+          href="about.html"
+          aria-current="page"
+        >
+          About
+        </a>
+
+        <a
+          class="nav__resume"
+          href="assets/resume/bella-koosh-resume.pdf"
+        >
+          Resume ↗
+        </a>
+
+        <a href="in-rotation.html">
+          In Rotation
+        </a>
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main id="main" data-accent="purple">
+
+
+    <!-- =======================================================
+         ABOUT HERO
+         ======================================================= -->
+
+    <section class="shell about-page">
+
+      <div class="about-page__kicker">
+
+        <span class="mono mono--ink">
+          Vol. 03
+        </span>
+
+        <span class="chip">
+          About
+        </span>
+
+      </div>
+
+
+      <div class="about-page__layout">
+
+
+        <!-- PORTRAIT -->
+
+        <div class="about-page__portrait">
+
+          <img
+            src="assets/img/bella.jpg"
+            alt="Bella Koosh"
+          >
+
+        </div>
+
+
+        <!-- STORY -->
+
+        <div class="about-page__story">
+
+          <h1>
+            Hi, I&rsquo;m Bella.
+          </h1>
+
+
+          <div class="about-page__copy">
+
+            <p>
+              I grew up in M&eacute;rida, M&eacute;xico, and now study
+              Computer Science at UC Berkeley. I started coding when I was
+              ten, and technology has been part of my life ever since,
+              from programming robots and building my first app to studying
+              CS today. Over time, I became just as interested in the people
+              using technology as I was in the technology itself.
+            </p>
+
+
+            <p>
+              Teaching has also been a big part of my life. I&rsquo;ve spent
+              years teaching computer science, and it&rsquo;s made me curious
+              about how people learn, why different things click for different
+              people, and how much the way something is presented can change
+              someone&rsquo;s experience of it.
+            </p>
+
+
+            <p>
+              I love bringing people together too. I&rsquo;ve started
+              communities, been part of teams I really care about, and met
+              some of my closest friends through the things I&rsquo;ve helped
+              build. Growing up in M&eacute;xico and moving to Berkeley has
+              also given me the chance to meet people whose experiences are
+              completely different from my own.
+            </p>
+
+
+            <p>
+              Outside of school, I DJ, tap dance, bake, and travel whenever
+              I can. I love music, good coffee, and finding new places to eat.
+            </p>
+
+          </div>
+
+
+          <p class="about-page__resume">
+
+            <a
+              class="btn btn--solid"
+              href="assets/resume/bella-koosh-resume.pdf"
+            >
+              Resume
+              <span aria-hidden="true">&#8599;</span>
+            </a>
+
+          </p>
+
+        </div>
+
+
+        <!-- SIDEBAR -->
+
+        <aside class="about-sidebar">
+
+
+          <!-- QUICK FACTS -->
+
+          <div class="about-sidebar__block">
+
+            <p class="mono mono--ink about-sidebar__heading">
+              Quick facts
+            </p>
+
+
+            <dl class="about-facts">
+
+
+              <div class="about-facts__row">
+
+                <dt>School</dt>
+
+                <dd>
+                  UC Berkeley<br>
+                  B.A. Computer Science
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>From</dt>
+
+                <dd>
+                  M&eacute;rida, M&eacute;xico
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>Languages</dt>
+
+                <dd>
+                  English &middot; Spanish &middot; French
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>Interests</dt>
+
+                <dd>
+                  Product &middot; Education &middot; Music
+                </dd>
+
+              </div>
+
+
+            </dl>
+
+          </div>
+
+
+          <!-- CURRENTLY -->
+
+          <div class="about-sidebar__block">
+
+            <p class="mono mono--ink about-sidebar__heading">
+              Currently
+            </p>
+
+
+            <dl class="about-facts">
+
+
+              <div class="about-facts__row">
+
+                <dt>Working</dt>
+
+                <dd>
+                  Product Operations @ Flourish Science
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>Building</dt>
+
+                <dd>
+                  BearCheck
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>Teaching</dt>
+
+                <dd>
+                  Product Management @ SCET
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>Studying</dt>
+
+                <dd>
+                  Computer Science @ Berkeley
+                </dd>
+
+              </div>
+
+
+              <div class="about-facts__row">
+
+                <dt>Playing</dt>
+
+                <dd>
+                  <a href="in-rotation.html">
+                    In Rotation &rarr;
+                  </a>
+                </dd>
+
+              </div>
+
+
+            </dl>
+
+          </div>
+
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =======================================================
+         LEADERSHIP
+         ======================================================= -->
+
+    <section class="section--snug section--paper about-leadership">
+
+      <div class="shell">
+
+
+        <div class="sechead">
+
+          <h2>
+            Things I&rsquo;ve helped lead
+          </h2>
+
+          <p class="mono">
+            Communities I care about
+          </p>
+
+        </div>
+
+
+        <div class="exprows">
+
+
+          <!-- ANOVA VP -->
+
+          <div class="exprow">
+
+            <div class="exprow__head">
+
+              <p class="exprow__org">
+                Berkeley ANova
+              </p>
+
+              <p class="exprow__role">
+                Vice President of Finance
+                <span aria-hidden="true">&middot;</span>
+                2025&ndash;2026
+              </p>
+
+            </div>
+
+
+            <p class="exprow__desc">
+              Helped operate a 60-member education nonprofit expanding
+              access to computer science across 9+ Bay Area schools.
+              Managed $30K+ in organizational accounts, budgeting, and
+              resource allocation, and conducted 22 candidate interviews
+              across officer and member recruiting.
+            </p>
+
+          </div>
+
+
+
+          <!-- ANOVA GENERAL MEETINGS -->
+
+          <div class="exprow">
+
+            <div class="exprow__head">
+
+              <p class="exprow__org">
+                Berkeley ANova
+              </p>
+
+              <p class="exprow__role">
+                General Meetings Officer
+                <span aria-hidden="true">&middot;</span>
+                Spring 2025
+              </p>
+
+            </div>
+
+
+            <p class="exprow__desc">
+              Led a team of five developing educational materials for
+              40+ mentors, ran weekly pedagogy-focused training, and
+              created feedback and data-collection systems for the program.
+            </p>
+
+          </div>
+
+
+
+          <!-- GIRL UP -->
+
+          <div class="exprow">
+
+            <div class="exprow__head">
+
+              <p class="exprow__org">
+                Girl Up M&eacute;rida United Voices
+              </p>
+
+              <p class="exprow__role">
+                Founder &amp; President
+                <span aria-hidden="true">&middot;</span>
+                2023&ndash;2024
+              </p>
+
+            </div>
+
+
+            <p class="exprow__desc">
+              Founded and led a Girl Up chapter that grew to 70+ girls
+              and women, organized 12+ events, raised MXN$6,000+, and
+              partnered with three NGOs. Built a leadership team of 12+
+              directors and created a structure that continued after I left.
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+        <p class="mono earlier">
+          <span class="mono--ink">
+            Earlier &mdash;
+          </span>
+
+          Madison Student Council, VP/Treasurer.
+          Raised MXN$70K+ through fundraising and product sales,
+          managed organizational finances, and trained my successor.
+        </p>
+
+
+        <p class="lede about-leadership__closing">
+          There&rsquo;s something really special to me about starting
+          something, bringing people together around it, and watching
+          them make it their own.
+        </p>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =======================================================
+         NEXT
+         ======================================================= -->
+
+    <section class="shell">
+
+      <div class="nextup" data-accent="blue">
+
+        <p class="mono">
+          Next
+        </p>
+
+        <p class="nextup__title">
+          The work
+        </p>
+
+        <a
+          class="btn"
+          href="work.html"
+        >
+          Open
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
+  <footer class="colophon">
+
+    <div class="shell colophon__in">
+
+      <p class="colophon__ask">
+        Want to talk product, education, or music?
+      </p>
+
+
+      <nav
+        class="colophon__links mono"
+        aria-label="Footer"
+      >
+
+        <a href="#" id="email-link">
+          Email &#8599;
+        </a>
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn &#8599;
+        </a>
+
+        <a href="assets/resume/bella-koosh-resume.pdf">
+          Resume &#8599;
+        </a>
+
+        <span class="colophon__loc">
+          Berkeley, CA
+        </span>
+
+      </nav>
+
+    </div>
+
+  </footer>
+
+
+
+  <script>
+    const user = "isabellakoosh";
+    const domain = "berkeley.edu";
+
+    document.getElementById("email-link").href =
+      `mailto:${user}@${domain}`;
+  </script>
+
+  <script
+    src="assets/js/site.js"
+    defer
+  ></script>
+
+</body>
+</html>
