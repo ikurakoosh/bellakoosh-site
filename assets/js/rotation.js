@@ -166,6 +166,15 @@
 
       renderFilters(state.tracks);
       renderTracks();
+      /* Auto-load the first two tracks into the decks. */
+if (state.tracks[0] && deckA) {
+  loadDeck(deckA, state.tracks[0]);
+  state.current = state.tracks[0];
+}
+
+if (state.tracks[1] && deckB) {
+  loadDeck(deckB, state.tracks[1]);
+}
     })
     .catch(function () { renderEmpty(); });
 
