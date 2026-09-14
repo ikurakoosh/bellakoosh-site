@@ -149,30 +149,39 @@
   }
 
   fetch("assets/data/rotation.json", { cache: "no-store" })
-    .then(function (data) {
-  state.tracks = Array.isArray(data.tracks) ? data.tracks : [];
-  if (!state.tracks.length) { renderEmpty(); return; }
+  .then(function (r) {
+    if (!r.ok) throw new Error("no data yet");
+    return r.json();
+  })
+  .then(function (data) {
+    state.tracks = Array.isArray(data.tracks) ? data.tracks : [];
+    if (!state.tracks.length) { renderEmpty(); return; }
 
-  if (el.sync) {
-    var bits = ["Synced " + fmtSyncDate(data.updatedAt)];
-    if (data.playlist && data.playlist.url) {
-      el.sync.innerHTML = bits[0] + ' &middot; <a href="' + data.playlist.url +
-        '" target="_blank" rel="noopener">' + (data.playlist.name || "Open playlist") + " &#8599;</a>";
-    } else {
-      el.sync.textContent = bits[0];
+    if (el.sync) {
+      var bits = ["Synced " + fmtSyncDate(data.updatedAt)];
+      if (data.playlist && data.playlist.url) {
+        el.sync.innerHTML = bits[0] + ' &middot; <a href="' + data.playlist.url +
+          '" target="_blank" rel="noopener">' +
+          (data.playlist.name || "Open playlist") + " &#8599;</a>";
+      } else {
+        el.sync.textContent = bits[0];
+      }
     }
-  }
 
-  renderFilters(state.tracks);
-  renderTracks();
+    renderFilters(state.tracks);
+    renderTracks();
 
-  /* Load first two tracks automatically. */
-  if (state.tracks[0] && deckA) {
-    loadDeck(deckA, state.tracks[0]);
-    state.current = state.tracks[0];
-  }
+    /* Load first two tracks automatically. */
+    if (state.tracks[0] && deckA) {
+      loadDeck(deckA, state.tracks[0]);
+      state.current = state.tracks[0];
+    }
 
-  if (state.tracks[1] && deckB) {
-    loadDeck(deckB, state.tracks[1]);
-  }
-})
+    if (state.tracks[1] && deckB) {
+      loadDeck(deckB, state.tracks[1]);
+    }
+  })
+  .catch(function () {
+    renderEmpty();
+  });
+  })();
