@@ -151,7 +151,7 @@
   fetch("assets/data/rotation.json", { cache: "no-store" })
     .then(function (r) { if (!r.ok) throw new Error("no data yet"); return r.json(); })
     .then(function (data) {
-      state.tracks = Array.isArray(data.tracks) ? data.tracks : [];
+      state.tracks = Array.isArray(data.tracks) ? data.tracks.slice().reverse() : [];
       if (!state.tracks.length) { renderEmpty(); return; }
 
       if (el.sync) {
