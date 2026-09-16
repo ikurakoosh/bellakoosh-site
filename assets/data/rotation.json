@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T17:41:43.112Z",
+  "updatedAt": "2026-09-16T17:39:07.817Z",
   "playlist": {
     "name": "in rotation",
     "url": "https://open.spotify.com/playlist/5NAUBQhGeYKl5v8korGf6T",
@@ -84,16 +84,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000b2732a5c6164e8743597f44b645e",
       "url": "https://open.spotify.com/track/0rvbMTIWwMZaMC9UnubDPb",
       "durationMs": 190745,
-      "previewUrl": null
-    },
-    {
-      "id": "4gh0ZnHzaTMT1sDga7Ek0N",
-      "name": "sdp interlude",
-      "artists": "Travis Scott",
-      "album": "Birds In The Trap Sing McKnight",
-      "image": "https://i.scdn.co/image/ab67616d0000b2738752a7355996e64709247c53",
-      "url": "https://open.spotify.com/track/4gh0ZnHzaTMT1sDga7Ek0N",
-      "durationMs": 191622,
       "previewUrl": null
     },
     {
@@ -257,16 +247,6 @@
       "previewUrl": null
     },
     {
-      "id": "1UTLq40xh63wMrHELGnKWW",
-      "name": "2:12 AM",
-      "artists": "Rauw Alejandro, LATIN MAFIA",
-      "album": "Cosa Nuestra",
-      "image": "https://i.scdn.co/image/ab67616d0000b273a6224f2f93c0ab4b2e01b44b",
-      "url": "https://open.spotify.com/track/1UTLq40xh63wMrHELGnKWW",
-      "durationMs": 211918,
-      "previewUrl": null
-    },
-    {
       "id": "2FAZskT9yRjp2Oow9szJD8",
       "name": "The Days - NOTION Remix",
       "artists": "Chrystal, NOTION",
@@ -284,16 +264,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000b2737c797ae4eaf5062537ca84fc",
       "url": "https://open.spotify.com/track/5C25UbDGoB9pgvqFlGfS9A",
       "durationMs": 147441,
-      "previewUrl": null
-    },
-    {
-      "id": "0b4M7hd7mzLTm99MrMeZsp",
-      "name": "She Will",
-      "artists": "Lil Wayne, Drake",
-      "album": "Tha Carter IV (Complete Edition)",
-      "image": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953",
-      "url": "https://open.spotify.com/track/0b4M7hd7mzLTm99MrMeZsp",
-      "durationMs": 305840,
       "previewUrl": null
     },
     {
@@ -337,16 +307,6 @@
       "previewUrl": null
     },
     {
-      "id": "2aPTvyE09vUCRwVvj0I8WK",
-      "name": "Sundress",
-      "artists": "A$AP Rocky",
-      "album": "Sundress",
-      "image": "https://i.scdn.co/image/ab67616d0000b2731ae967e4a02c7a39eb3c189b",
-      "url": "https://open.spotify.com/track/2aPTvyE09vUCRwVvj0I8WK",
-      "durationMs": 158205,
-      "previewUrl": null
-    },
-    {
       "id": "5uaHSOou5ernQBKhfVse1f",
       "name": "Everytime",
       "artists": "IDEMI, Lustral",
@@ -354,26 +314,6 @@
       "image": "https://i.scdn.co/image/ab67616d0000b273f64f41769ac466af461fc5a7",
       "url": "https://open.spotify.com/track/5uaHSOou5ernQBKhfVse1f",
       "durationMs": 205454,
-      "previewUrl": null
-    },
-    {
-      "id": "6njivaRY1zUaaEZGf22unI",
-      "name": "TENTEN",
-      "artists": "NOTION, Unknown T, D38",
-      "album": "TENTEN",
-      "image": "https://i.scdn.co/image/ab67616d0000b2735a393c735f40ce2cdaab8f57",
-      "url": "https://open.spotify.com/track/6njivaRY1zUaaEZGf22unI",
-      "durationMs": 209347,
-      "previewUrl": null
-    },
-    {
-      "id": "2c7z5oRcPBbqRaBY2mLWcf",
-      "name": "NEW DROP",
-      "artists": "Don Toliver",
-      "album": "HARDSTONE PSYCHO",
-      "image": "https://i.scdn.co/image/ab67616d0000b273b5050e0d58c704da6bb519e1",
-      "url": "https://open.spotify.com/track/2c7z5oRcPBbqRaBY2mLWcf",
-      "durationMs": 217333,
       "previewUrl": null
     },
     {
